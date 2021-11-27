@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Bulldog connect
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web app for students to find events on and off campus
 
 ## Available Scripts
 
