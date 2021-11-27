@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 
 const App = () => {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*  
+        1. site header with name of product 
+        2. information: address, host, time of event, image of location
+        3. down the line: SEO optimizing pages: about, privacy, and contact information
+      */}
+        <ul>Site Header</ul>
     </div>
   );
 }
