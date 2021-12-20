@@ -18,26 +18,8 @@ const App = () => {
           const bodyParameters = {
             key: "value"
           };
-          // axios.post(
-          //   `https://canvas.instructure.com/api/v1/courses?access_token=${token}`,
-          //   config,
-          //   bodyParameters
-          // )
-          //   .then(function (res) {
-          //     console.log(res);
-          //   })
-          //   .catch(function (err) {
-          //     console.log("error in canvas api request", err);
-          //   }).then(function () {
-          //   })
           // curl https://canvas.ubc.ca/api/v1/users/self -H “Authorization: Bearer $token”
           fetch(`https://canvas.instructure.com/api/v1/courses?access_token=${token}`, {
-            // body: "{\"id\":\"3970a1b0-6e27-448a-adfc-0083db15b2fb\", \"tokens\":{\"design_token1\":\"Hi\",\"design_token2\":\"Hello\",\"design_token3\":\"World\",\"subject_token1\":\"XYZ\"}, \"recipient\":\"james@sample.com\"}",
-            // headers: {
-              // Accept: "application/json",
-              // "Content-Type": "application/json",
-              // Token: "sfg999666t673t7t82"
-            // },
             method: "GET"
           }).catch(e => {
             console.log(e);
