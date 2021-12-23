@@ -19,7 +19,7 @@ const App = () => {
             key: "value"
           };
           // curl https://canvas.ubc.ca/api/v1/users/self -H “Authorization: Bearer $token”
-          fetch(`https://canvas.instructure.com/api/v1/courses?access_token=${token}`, {
+          fetch(`https://<canvas-install-url>/login/oauth2/auth?`, {
             method: "GET"
           }).catch(e => {
             console.log(e);
