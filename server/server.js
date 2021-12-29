@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 /* Route */
 app.use('/api/canvas', canvasRoute);
 app.use('/api/fileUpload', fileUploadRoute);
-
+// 
 // Serve static files
 app.use(express.static('build'));
 
